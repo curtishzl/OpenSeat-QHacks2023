@@ -1,0 +1,262 @@
+* {
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header1{
+    background-color: rgb(12, 37, 86);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: -50px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.header2{
+    background-color: rgb(12, 37, 86);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 6px;
+    
+}
+
+.h1 {
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.hlib {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-family: Tahoma, Arial, sans-serif;
+    font-stretch: expanded;
+    text-align: left;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.square-button {
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 0;
+    align-items: flex-end;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border: 1px solid transparent;
+    text-align: center;
+    transition: all 0.2s ease-in-out; /* Add transition effect */
+}
+
+/* Style when hovered over */
+.square-button:hover {
+    border: 1px solid rgb(12, 37, 86);
+}
+
+/* Style when clicked */
+.square-button:active {
+    background-color: rgb(12, 37, 86);
+    color: white; /* You can change the text color to white */
+}
+  
+.button1 {
+    padding: top 10px;
+    padding: bottom 20px;
+    font-size: 48px;
+    border: 0px;
+    background-color: #F1F0EA;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: center;
+    flex: 1 0 calc(50% - 10px);
+    width: fit-content;
+    min-height: 70px;
+}
+
+.button1:hover {
+    cursor: pointer;
+}
+
+.buttonrow {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+  }
+.flex-containerb {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0%;
+}
+
+.flex-item1 {
+    background-color: #F1F0EA;
+    flex: 1 0 calc(50% - 10px);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    border: 0px solid rgb(12, 37, 86,0.2);
+    width: fit-content;
+    min-height: 70px;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 2em;
+    color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 16px;
+    margin-left: 1.4em;
+  }
+
+
+.flex-item3 {
+    background-color: #F1F0EA;
+    flex: 1 0 calc(50% - 10px);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    border: 0px solid rgb(12, 37, 86,0.2);
+    width: fit-content;
+    min-height: 20px;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 2em;
+    color: #333;
+    margin: 16px;
+    margin-left: 1.4em;
+    
+}
+
+.flex-item2 {
+    background-color: #F1F0EA;
+    flex: 1 0 calc(10% - 80px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    line-height: 1.5em;
+    border-radius: 15px;
+    border: 0px solid rgb(12, 37, 86,0.2);
+    width: fit-content;
+    min-height: 70px;
+    text-align: center;
+    justify-content: center;
+    color: #333;
+    padding: 10px;
+    margin: 16px;
+    margin-right: 1.4em;
+}
+.flex-item4 {
+    background-color: #F1F0EA;
+    flex: 1 0 calc(10% - 80px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
+    border-radius: 15px;
+    border: 0px solid rgb(12, 37, 86,0.2);
+    width: fit-content;
+    min-height: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #333;
+    margin-right: 1.4em;
+    
+}
+
+.flex-item5 {
+    background-color: #F1F0EA;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    border: 0px solid rgb(12, 37, 86,0.2);
+    justify-content: left;
+    width: fit-content;
+    min-height: 20px;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 2em;
+    color: #333;
+    margin: 16px;
+    margin-left: 1.4em;
+}
+
+.flex-item10{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    width: fit-content;
+    align-self: center;
+    min-height: 10px;
+    font-size: 1.4em;
+    font-weight: bolder;
+    text-align: flex-end;
+    color: rgb(12, 37, 86);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+
+  }
+
+/* Progress Bar Style */
+.progress-bar {
+    width: 60%; /* Width of the progress bar */
+    background-color: #f1f1f1; /* Background color of the progress bar */
+    height: 20px; /* Height of the progress bar */
+    border-radius: 10px; /* Rounded corners of the progress bar */
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .progress {
+    background-color: rgb(12, 37, 86); /* Progress color */
+    width: 0%; /* Initial width of the progress */
+    height: 100%; /* Height of the progress */
+    border-radius: 10px; /* Rounded corners of the progress */
+    transition: width 0.5s; /* Smooth transition of the progress */
+  }
+
+
+@media (max-width: 768px) {
+    .item {
+        flex: 1 0 calc(100% - 20px);
+    }
+}
